@@ -1,0 +1,29 @@
+.header {
+    text-align: center;
+    font-size: 90px;
+    color:goldenrod
+}
+.center {
+    text-align: center;
+}
+body {
+    background-color: black;
+}
+a {
+    color:goldenrod;
+    font-size: large;
+}
+.col1 {
+    width:20%;
+}
+.col2 {
+    width:60%
+}
+.col3 {
+    width:20%
+}
+.btn {
+    width:250px;
+    height:200px;
+    padding: 20px;
+}

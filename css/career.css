@@ -1,0 +1,60 @@
+.row1 {
+    padding-left: 50px;
+}
+.center {
+    text-align: center;
+}
+table {
+    padding: 20px;
+}
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .img2 {
+    border: 10px solid goldenrod;
+  }
+  .floatRight {
+      float: right;
+  }
+ button {
+      height: 150px;
+      width: 300px;
+  }
+  .btnimg {
+    height: 145px;
+    width: 295px;
+  }
+  th, td {
+    padding: 15px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 75%;
+    padding: 10px;
+    padding-left: 20%;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+    /* Create two equal columns that floats next to each other */
+    .column2 {
+        float: left;
+        width: 25%;
+        padding: 20px;
+        padding-left:15%;
+        padding-top: 15%;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

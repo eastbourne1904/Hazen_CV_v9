@@ -1,0 +1,53 @@
+.center {
+  text-align: center;
+}
+.name {
+  font-size: 90px;
+}
+.imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+h3 {
+  color:cornflowerblue;
+}
+.xs {
+  font-size: small;
+}
+.col1 {
+  width: 20%;
+  background-color: hsl(180, 1%, 85%);
+}
+.col2 {
+  width: 65;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.col3 {
+  width: 15%;
+  background-color: hsl(180, 1%, 85%);
+}
+td {
+  height: 50px;
+  vertical-align: top;
+}
+table, th, td {
+  border: 0px solid hsl(180, 1%, 85%);
+  border-collapse: collapse;
+}
+.clickMe {
+  width: 20%;
+}
+.floatRight {
+  float: right;
+}
+.noStyle {
+  text-decoration: none;
+  color:red;
+}
+.styleNone {
+  text-decoration: none;
+  color:black
+}

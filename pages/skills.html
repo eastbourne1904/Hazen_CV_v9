@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="../css/skills.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title>Skills</title>
+</head>
+<body>
+
+    <table style="width:100%">
+        <!-- Row 1 -->
+        <tr>
+            <td>
+                <canvas id="myChart1" style="width:100%;max-width:600px"></canvas>
+
+                <script>
+                var xValues = ["HTML", "CSS", "SCSS", "Bootstrap", "???"];
+                var yValues = [99, 99, 85, 60, 15];
+                var barColors = ["red", "green","blue","orange","brown"];
+                
+                new Chart("myChart1", {
+                type: "bar",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                    }]
+                },
+                options: {
+                    legend: {display: false},
+                    title: {
+                    display: true,
+                    text: "Front End Web Page Tools"
+                    }
+                }
+                });
+                </script>
+            </td>
+            <td>
+                <canvas id="myChart2" style="width:100%;max-width:600px"></canvas>
+
+                <script>
+                var xValues = ["Typescript", "javascript", "JQuery", "AngularJS", "NodeJS", "Angular"];
+                var yValues = [99, 99, 65, 30, 15, 15];
+                var barColors = ["red", "green","blue","orange","brown", "yellow"];
+                
+                new Chart("myChart2", {
+                type: "bar",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                    }]
+                },
+                options: {
+                    legend: {display: false},
+                    title: {
+                    display: true,
+                    text: "Web Development Tools"
+                    }
+                }
+                });
+                </script>
+            </td>
+        </tr>
+        <!-- Row 2 -->
+        <tr>
+            <td>
+                <canvas id="myChart3" style="width:100%;max-width:600px"></canvas>
+
+                <script>
+                var xValues = ["Perl", "java", "C/C#", "SQL", "PHP", "Python", "R"];
+                var yValues = [99, 29, 55, 80, 45, 45, 55];
+                var barColors = ["red", "green","blue","orange","brown", "yellow", "grey"];
+                
+                new Chart("myChart3", {
+                type: "bar",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                    }]
+                },
+                options: {
+                    legend: {display: false},
+                    title: {
+                    display: true,
+                    text: "Programming Languages"
+                    }
+                }
+                });
+                </script>
+            </td>
+            <td>
+                <canvas id="myChart4" style="width:100%;max-width:600px"></canvas>
+
+                <script>
+                var xValues = ["Windows", "UNIX", "Linux", "AIX", "Mainframe"];
+                var yValues = [99, 99, 99, 99, 15];
+                var barColors = ["red", "green","blue","orange","brown"];
+                
+                new Chart("myChart4", {
+                type: "bar",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                    }]
+                },
+                options: {
+                    legend: {display: false},
+                    title: {
+                    display: true,
+                    text: "Platforms"
+                    }
+                }
+                });
+                </script>
+            </td>
+            <!-- <td>
+                <a href="index.html">Home</a><br>
+                <a href="education.html">Education</a><br>
+                <a href="career.html">Career</a><br>
+                <a href="compensation.html">Compensation</a><br>
+                <a href="awards.html">Awards</a><br>
+                <a href="skills.html">Skills</a><br>
+                <a href="samples.html">Samples Projects</a><br>
+                <a href="about.html">About Me</a><br>
+            </td> -->
+        </tr>
+        <!-- Row 3 -->
+        <tr>
+            <td>
+                <canvas id="myChart5" style="width:100%;max-width:600px"></canvas>
+
+                <script>
+                var xValues = ["Client Interface", "Teamwork", "Independance", "Problem Solving", "Troubleshooting", "Learning", "Team Play"];
+                var yValues = [99, 99, 99, 90, 85, 99, 15];
+                var barColors = ["red", "green","blue","orange","brown", "yellow", "grey"];
+                
+                new Chart("myChart5", {
+                type: "bar",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                    }]
+                },
+                options: {
+                    legend: {display: false},
+                    title: {
+                    display: true,
+                    text: "Soft Skills"
+                    }
+                }
+                });
+                </script>
+            </td>
+            <td>
+                <canvas id="myChart6" style="width:100%;max-width:600px"></canvas>
+
+                <script>
+                var xValues = ["Tivoli Framework (4.x)", "Tivoli (BixFix 5.x)", "Tivoli/Netcool (6.x and above)", "Agents", "Installation", "Remedy", "SNOW/cmdb"];
+                var yValues = [75, 15, 75, 75, 90, 74, 30];
+                var barColors = ["red", "green","blue","orange","brown", "yellow", "grey"];
+                
+                new Chart("myChart6", {
+                type: "bar",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                    }]
+                },
+                options: {
+                    legend: {display: false},
+                    title: {
+                    display: true,
+                    text: "Tivoli / Netcool Monitoring"
+                    }
+                }
+                });
+                </script>
+            </td>
+        </tr>
+    </table>
+    
+    </body>
+</html>
+    
